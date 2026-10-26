@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<meta name="description" content="Познайомся з персонажами Мур, прочитай їхні історії та дізнайся свій котячий настрій.">
+					<title>Котики — Мур</title>
+					<link rel="stylesheet" href="../style.css">
+						<script src="../script.js" defer=""></script>
+					</head>
+
+	<body id="top">
+		<a class="skip-link" href="#main">Перейти до вмісту</a>
+
+		<header class="header">
+			<a class="logo" href="../index.html" aria-label="Мур — головна">
+				мур<span>✳</span>
+			</a>
+
+			<nav class="menu" aria-label="Головне меню">
+				<a class="menu-link" href="../index.html">
+					<span class="menu-icon" aria-hidden="true">⌂</span>
+					<span>Головна</span>
+				</a>
+				<a class="menu-link" href="../about/index.html">
+					<span class="menu-icon" aria-hidden="true">♡</span>
+					<span>Про нас</span>
+				</a>
+				<a class="menu-link" href="index.html" aria-current="page">
+					<span class="menu-icon" aria-hidden="true">🐾</span>
+					<span>Котики</span>
+				</a>
+				<a class="menu-link" href="../contacts/index.html">
+					<span class="menu-icon" aria-hidden="true">☎</span>
+					<span>Контакти</span>
+				</a>
+			</nav>
+
+			<div class="header-actions">
+				<button class="theme-toggle" type="button"
+				  data-theme-toggle="" aria-pressed="false">
+					☾ Темна тема
+				</button>
+			</div>
+		</header>
+
+		<main id="main">
+			<section class="page-intro section">
+				<p class="eyebrow">02 / КОТИКИ</p>
+				<h1>
+					Кожні лапки —<br>
+						свій <em>характер.</em>
+				</h1>
+				<p class="intro">
+					Знайомся з трьома вигаданими героями «Мур».
+					Прочитай їхні історії, подаруй віртуальне погладжування
+					та знайди свій котячий настрій.
+				</p>
+				<p class="notice">
+					Це персонажі навчального проєкту, а не список мешканців
+					котокафе чи оголошення про прилаштування.
+				</p>
+				<a class="button" href="#quiz">Перейти до тесту ↓</a>
+			</section>
+
+			<section class="section profile-section">
+				<h2>Наші пухнасті персонажі</h2>
+
+				<div class="cards">
+					<article class="profile">
+						<img src="images/murko.svg" alt="Ілюстрація котика Мурка">
+							<div class="profile-copy">
+								<p class="eyebrow">МАЙСТЕР ЗАТИШКУ</p>
+								<h3>Мурко</h3>
+								<p>
+									Любить тихі вечори, м’які пледи й місце поруч
+									із людиною. Не поспішає, коли навколо
+									стільки можливостей подрімати.
+								</p>
+								<p class="fact">
+									<strong>Улюблене місце:</strong> тепле підвіконня.
+								</p>
+								<details>
+									<summary>Як подружитися?</summary>
+									<p>
+										Сядь поруч і дозволь йому самому скоротити відстань.
+									</p>
+								</details>
+
+								<div class="profile-actions">
+									<button class="button" type="button" data-story="murko">
+										Моя історія
+									</button>
+									<button class="button button-secondary"
+									  type="button" data-pet="murko"
+									  aria-label="Віртуально погладити Мурка">
+										Погладити ♡
+									</button>
+								</div>
+								<p class="pet-message" role="status" aria-live="polite"></p>
+							</div>
+						</article>
+
+					<article class="profile">
+						<img src="images/hmarka.svg" alt="Ілюстрація котика Хмарки">
+							<div class="profile-copy">
+								<p class="eyebrow">НІЖНА СПОСТЕРІГАЧКА</p>
+								<h3>Хмарка</h3>
+								<p>
+									Спершу уважно спостерігає з безпечного місця.
+									Коли звикає до компанії, охоче залишається поруч.
+									Цінує спокій і делікатність.
+								</p>
+								<p class="fact">
+									<strong>Улюблене місце:</strong> спокійний куточок.
+								</p>
+								<details>
+									<summary>Як подружитися?</summary>
+									<p>
+										Говори тихо та не намагайся одразу взяти її на руки.
+									</p>
+								</details>
+
+								<div class="profile-actions">
+									<button class="button" type="button" data-story="hmarka">
+										Моя історія
+									</button>
+									<button class="button button-secondary"
+									  type="button" data-pet="hmarka"
+									  aria-label="Віртуально погладити Хмарку">
+										Погладити ♡
+									</button>
+								</div>
+								<p class="pet-message" role="status" aria-live="polite"></p>
+							</div>
+						</article>
+
+					<article class="profile">
+						<img src="images/iskra.svg" alt="Ілюстрація котика Іскри">
+							<div class="profile-copy">
+								<p class="eyebrow">ДОСЛІДНИЦЯ ПРИГОД</p>
+								<h3>Іскра</h3>
+								<p>
+									Завжди помічає нову коробку й цікаву іграшку.
+									Після активної гри із задоволенням
+									влаштовує собі заслужений відпочинок.
+								</p>
+								<p class="fact">
+									<strong>Улюблене місце:</strong> картонні коробки.
+								</p>
+								<details>
+									<summary>Як подружитися?</summary>
+									<p>
+										Запропонуй гру з іграшкою та роби перерви.
+									</p>
+								</details>
+
+								<div class="profile-actions">
+									<button class="button" type="button" data-story="iskra">
+										Моя історія
+									</button>
+									<button class="button button-secondary"
+									  type="button" data-pet="iskra"
+									  aria-label="Віртуально погладити Іскру">
+										Погладити ♡
+									</button>
+								</div>
+								<p class="pet-message" role="status" aria-live="polite"></p>
+							</div>
+						</article>
+				</div>
+			</section>
+
+			<section class="section split">
+				<div>
+					<p class="eyebrow">МОВА КОТИКІВ</p>
+					<h2>
+						Спостерігай.<br>Не поспішай.</h2>
+					<p>
+						Один жест не пояснює всього: звертай увагу
+						на загальну поведінку й ситуацію.
+					</p>
+				</div>
+
+				<div class="stack">
+					<article class="info-card">
+						<h3>Сам підходить</h3>
+						<p>
+							Дай котику обнюхати руку. Рухайся повільно
+							й залиш йому можливість відійти.
+						</p>
+					</article>
+					<article class="info-card">
+						<h3>Відходить або ховається</h3>
+						<p>
+							Зроби паузу. Не діставай його зі схованки
+							й не переслідуй.
+						</p>
+					</article>
+					<article class="info-card">
+						<h3>Спить</h3>
+						<p>
+							Час відпочинку — не час для знайомства.
+							Краще поспостерігай здалеку.
+						</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="section" id="quiz" aria-labelledby="quiz-title">
+				<div class="quiz-panel">
+					<p class="eyebrow">ТРИ ПИТАННЯ ДЛЯ УСМІШКИ</p>
+					<h2 id="quiz-title">Який у тебе котячий настрій?</h2>
+					<p class="quiz-description">
+						Обери одну відповідь у кожному питанні.
+						Це розважальний тест, а не психологічна оцінка.
+					</p>
+
+					<form class="quiz-form" id="cat-quiz">
+						<fieldset>
+							<legend>1. Твій ідеальний вечір?</legend>
+
+							<label class="quiz-option">
+								<input type="radio" name="evening" value="murko" required="">
+									<span>Плед, улюблений фільм і щось тепле.</span>
+								</label>
+							<label class="quiz-option">
+								<input type="radio" name="evening" value="hmarka">
+									<span>Книжка, тиша й трохи часу для себе.</span>
+								</label>
+							<label class="quiz-option">
+								<input type="radio" name="evening" value="iskra">
+									<span>Нова гра, прогулянка або маленька пригода.</span>
+								</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>2. Яке місце ти обереш?</legend>
+
+							<label class="quiz-option">
+								<input type="radio" name="place" value="murko" required="">
+									<span>М’який диван біля сонячного вікна.</span>
+								</label>
+							<label class="quiz-option">
+								<input type="radio" name="place" value="hmarka">
+									<span>Тихий куточок, звідки видно все навколо.</span>
+								</label>
+							<label class="quiz-option">
+								<input type="radio" name="place" value="iskra">
+									<span>Місце, де я ще ніколи не була.</span>
+								</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>3. Що зараз найбільше тішить?</legend>
+
+							<label class="quiz-option">
+								<input type="radio" name="mood" value="murko" required="">
+									<span>Затишок і близькі люди поруч.</span>
+								</label>
+							<label class="quiz-option">
+								<input type="radio" name="mood" value="hmarka">
+									<span>Спокій, довіра та маленькі красиві деталі.</span>
+								</label>
+							<label class="quiz-option">
+								<input type="radio" name="mood" value="iskra">
+									<span>Нові враження й цікаві заняття.</span>
+								</label>
+						</fieldset>
+
+						<button class="button" type="submit">
+							Дізнатися результат 🐾
+						</button>
+						<button class="button button-secondary" type="reset">
+							Спробувати ще раз
+						</button>
+					</form>
+
+					<div class="quiz-result" id="quiz-result"
+					  tabindex="-1" aria-live="polite" hidden=""></div>
+
+					<noscript>
+						<p class="notice">
+							Для тесту, історій і віртуальних погладжувань
+							увімкни JavaScript у браузері.
+						</p>
+					</noscript>
+				</div>
+			</section>
+
+			<aside class="closing">
+				<p>
+					Найкраща дружба —<br>
+						коли є <em>довіра.</em>
+				</p>
+				<a class="button" href="../about/index.html">
+					Більше про котячий етикет ↗
+				</a>
+			</aside>
+		</main>
+
+		<dialog class="story-dialog" id="story-dialog"
+		  aria-labelledby="story-title" aria-describedby="story-text">
+			<button class="dialog-close" type="button" data-dialog-close="">
+				Закрити ×
+			</button>
+			<p class="eyebrow">ВИГАДАНА ІСТОРІЯ ПЕРСОНАЖА</p>
+			<img class="dialog-art" id="story-image" alt="" hidden="">
+				<h2 id="story-title">Історія котика</h2>
+				<p id="story-text"></p>
+			</dialog>
+
+		<footer class="contact-footer" id="contacts">
+			<div class="footer-heading">
+				<div>
+					<p class="eyebrow">КОНТАКТИ / ВІННИЦЯ</p>
+					<h2>
+						Котокафе у Вінниці <em>♡</em>
+					</h2>
+				</div>
+				<span class="floating-paw" aria-hidden="true">🐾</span>
+			</div>
+
+			<div class="footer-grid">
+				<section class="map-card" aria-labelledby="map-title">
+					<h3 id="map-title">Котокафе «Хвостики»</h3>
+					<iframe class="location-map"
+					  title="Мапа котокафе Хвостики у Вінниці"
+					  src="https://maps.google.com/maps?q=Хвостики,+Миколи+Оводова+22,+Вінниця&amp;z=16&amp;output=embed"
+					  loading="lazy" allowfullscreen=""
+					  referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<p class="map-address">
+						<strong>Адреса:</strong> м. Вінниця, вул. Миколи Оводова, 22
+					</p>
+					<a class="button"
+					  href="https://www.google.com/maps/search/?api=1&amp;query=Хвостики+Миколи+Оводова+22+Вінниця"
+					  target="_blank" rel="noopener noreferrer">
+						Відкрити в Google Maps ↗
+					</a>
+				</section>
+
+				<section class="contact-details" aria-labelledby="contact-title">
+					<h3 id="contact-title">Залишаймося на зв’язку</h3>
+
+					<div class="contact-item">
+						<span class="contact-icon" aria-hidden="true">☎</span>
+						<div>
+							<h4>Телефон котокафе</h4>
+							<a href="tel:+380739069909">+380 (73) 906-99-09</a>
+							<p>Уточнюй графік і умови відвідування.</p>
+						</div>
+					</div>
+
+					<div class="contact-item">
+						<span class="contact-icon" aria-hidden="true">♡</span>
+						<div>
+							<h4>Новини закладу</h4>
+							<a href="https://www.facebook.com/catcafe.vn/"
+							  target="_blank" rel="noopener noreferrer">
+								«Хвостики» у Facebook ↗
+							</a>
+						</div>
+					</div>
+
+					<div class="contact-item">
+						<span class="contact-icon" aria-hidden="true">◷</span>
+						<div>
+							<h4>Плануєш завітати?</h4>
+							<p>
+								Перед візитом уточни адресу, години роботи
+								та чи потрібне попереднє бронювання.
+							</p>
+						</div>
+					</div>
+
+					<p class="footer-invitation">
+						Поважай відпочинок котиків і правила закладу.
+						Найкраща дружба починається з довіри ♡
+					</p>
+				</section>
+			</div>
+
+			<div class="footer-bottom">
+				<a class="logo" href="../index.html">
+					мур<span>✳</span>
+				</a>
+				<p>© 2026 Мур · Навчальний проєкт. Неофіційний сайт.</p>
+				<a class="footer-top" href="#top">Нагору ↑</a>
+			</div>
+		</footer>
+		<audio id="purr-audio" preload="none">
+			<source src="audio/purr.mp3" type="audio/mpeg">
+			</audio>
+	</body>
+</html>
