@@ -369,3 +369,51 @@
     });
   }
 })();
+// Звук муркотіння для кнопок «Погладити».
+(() => {
+  function connectPurrSound() {
+    const audio = document.getElementById("purr-audio");
+
+    if (!audio || audio.dataset.soundConnected === "true") return;
+
+    audio.dataset.soundConnected = "true";
+    audio.volume = 0.7;
+    audio.muted = false;
+    audio.loop = false;
+
+    document.querySelectorAll("[data-pet]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const message = button
+          .closest(".profile")
+          ?.querySelector(".pet-message");
+
+        audio.pause();
+
+        try {
+          audio.currentTime = 0;
+        } catch {
+          // При першому запуску запис може ще завантажуватися.
+        }
+
+        audio.play().catch((error) => {
+          if (error.name === "AbortError") return;
+
+          if (message) {
+            message.textContent =
+              "Не вдалося відтворити звук. Перевір файл cats/audio/purr.mp3.";
+          }
+        });
+      });
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) audio.pause();
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", connectPurrSound);
+  } else {
+    connectPurrSound();
+  }
+})();

@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\about",
+    "\\cats",
+    "\\cats\\audio",
+    "\\contacts",
+    "\\images",
+    "\\останні три"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\script.js",
   "PreviewInSolutionExplorer": false
 }

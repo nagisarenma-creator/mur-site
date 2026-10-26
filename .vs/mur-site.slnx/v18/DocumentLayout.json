@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\38093\\Downloads\\mur-site\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\38093\\Downloads\\mur-site\\script.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:script.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\38093\\Downloads\\mur-site\\cats\\index.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cats\\index.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\38093\\Downloads\\mur-site\\about\\index.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:about\\index.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\cats\\index.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mur-site\\cats\\index.html||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -39,19 +51,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\script.js",
+              "RelativeDocumentMoniker": "script.js",
+              "ToolTip": "C:\\Users\\38093\\Downloads\\mur-site\\script.js",
+              "RelativeToolTip": "script.js",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAmwKMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-10-26T18:49:33.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\cats\\index.html",
-              "RelativeDocumentMoniker": "mur-site\\cats\\index.html",
-              "ToolTip": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\cats\\index.html",
-              "RelativeToolTip": "mur-site\\cats\\index.html",
-              "ViewState": "AgIAAGMBAAAAAAAAAAAowIoBAAAHAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\cats\\index.html",
+              "RelativeDocumentMoniker": "cats\\index.html",
+              "ToolTip": "C:\\Users\\38093\\Downloads\\mur-site\\cats\\index.html",
+              "RelativeToolTip": "cats\\index.html",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAswIsBAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-10-26T17:18:57.572Z",
+              "WhenOpened": "2026-10-26T18:45:10.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\about\\index.html",
+              "RelativeDocumentMoniker": "about\\index.html",
+              "ToolTip": "C:\\Users\\38093\\Downloads\\mur-site\\about\\index.html",
+              "RelativeToolTip": "about\\index.html",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswD8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-26T18:42:25.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\cats\\index.html",
+              "RelativeDocumentMoniker": "mur-site\\cats\\index.html",
+              "ToolTip": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\cats\\index.html",
+              "RelativeToolTip": "mur-site\\cats\\index.html",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-10-26T17:18:57.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\contacts\\index.html",
               "RelativeDocumentMoniker": "mur-site\\contacts\\index.html",
@@ -59,12 +108,11 @@
               "RelativeToolTip": "mur-site\\contacts\\index.html",
               "ViewState": "AgIAAMMAAAAAAAAAAAAswN0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-10-26T17:09:33.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-26T17:09:33.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\about\\index.html",
               "RelativeDocumentMoniker": "mur-site\\about\\index.html",
@@ -72,12 +120,11 @@
               "RelativeToolTip": "mur-site\\about\\index.html",
               "ViewState": "AgIAAPcAAAAAAAAAAAAswAsBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-10-26T17:09:11.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-26T17:09:11.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\index.html",
               "RelativeDocumentMoniker": "mur-site\\index.html",
@@ -85,12 +132,11 @@
               "RelativeToolTip": "mur-site\\index.html",
               "ViewState": "AgIAALQAAAAAAAAAAAAswPIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-10-26T17:08:44.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-26T17:08:44.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\style.css",
               "RelativeDocumentMoniker": "mur-site\\style.css",
@@ -98,12 +144,11 @@
               "RelativeToolTip": "mur-site\\style.css",
               "ViewState": "AgIAACYCAAAAAAAAAAAmwDsCAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-10-26T17:08:23.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-26T17:08:23.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\38093\\Downloads\\mur-site\\mur-site\\images\\script.js",
               "RelativeDocumentMoniker": "mur-site\\images\\script.js",
@@ -111,8 +156,7 @@
               "RelativeToolTip": "mur-site\\images\\script.js",
               "ViewState": "AgIAAEsBAAAAAAAAAAAmwHIBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-10-26T17:07:03.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-26T17:07:03.706Z"
             },
             {
               "$type": "Bookmark",
